@@ -4,7 +4,7 @@
 
 * **Nguyễn Duy Vũ     MSSV: 18120264**
 
-#Gender recognition by voice
+# Gender recognition by voice
 
 Dataset Source: [Voxforge](http://www.repository.voxforge1.org/downloads/SpeechCorpus/Trunk/Audio/Main/16kHz_16bit/)
 
