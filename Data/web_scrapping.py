@@ -22,6 +22,11 @@ def batch_download(matches):
 response = requests.get(URL)
 soup = BeautifulSoup(response.text, 'html.parser')
 matches = soup.find_all('a', attrs={"href": re.compile("tgz")})
+<<<<<<< HEAD
 os.chdir('Data')
+=======
+matches = matches[5758:]
+os.chdir(r'Data')
+>>>>>>> 375499dc44cc3774237962fff70256cff96b1b9f
 #print(len(matches))
 batch_download(matches)

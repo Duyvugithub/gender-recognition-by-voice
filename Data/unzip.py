@@ -1,8 +1,13 @@
 import os
 import tarfile
 
+<<<<<<< HEAD
 raw_folder = 'Data/raw_data'
 
+=======
+raw_folder = './raw_data/'
+os.chdir('Data')
+>>>>>>> 375499dc44cc3774237962fff70256cff96b1b9f
 
 for f in os.listdir(raw_folder):
     if f.endswith('.tgz'):

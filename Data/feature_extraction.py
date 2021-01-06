@@ -5,6 +5,7 @@ from scipy.io import wavfile
 import numpy as np
 import os
 
+<<<<<<< HEAD
 
 os.chdir('Data')
 
@@ -97,3 +98,7 @@ for i in range(n_samples):
 
 #and store it to a file
 myData.to_csv('clean_Data.csv')
+=======
+raw_folder = './raw_data/'
+os.chdir('Data')
+>>>>>>> 375499dc44cc3774237962fff70256cff96b1b9f
