@@ -1,0 +1,153 @@
+/usr/local/bin/HVite -A -D -T 1 -l * -a -b SENT-END -m -C /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/wav_config -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2012-07-24_16kHz_16bit_MFCC_O_D/macros -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2012-07-24_16kHz_16bit_MFCC_O_D/hmmdefs -m -t 250.0 150.0 1000.0 -I /tmp/CAR0LUmOYF/words.mlf -i /tmp/CAR0LUmOYF/aligned.out -S /tmp/CAR0LUmOYF/fileList /data/svn-mirror/SpeechCorpus/Trunk/Lexicon/VoxForge/VoxForgeDict /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2012-07-24_16kHz_16bit_MFCC_O_D/tiedlist 
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_D_N_Z_0
+#                 SOURCEFORMAT                 WAV
+
+Read 8294 physical / 9429 logical HMMs
+Label file will be used to align each file
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-01.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END I DO NOT BLAME YOU FOR ANYTHING REMEMBER THAT SENT-END  ==  [435 frames] -57.7127 [Ac=-25105.0 LM=0.0] (Act=10.9)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-02.wav
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END IF YOU MEAN TO INSINUATE BRENTWOOD BEGAN HOTLY SENT-END  ==  [516 frames] -56.8076 [Ac=-29312.7 LM=0.0] (Act=10.9)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-03.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END THE WOMAN IN YOU IS ONLY INCIDENTAL ACCIDENTAL AND IRRELEVANT SENT-END  ==  [509 frames] -60.3357 [Ac=-30710.9 LM=0.0] (Act=13.2)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-04.wav
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END THERE WAS NO FORECASTING THIS STRANGE GIRL'S PROCESSES SENT-END  ==  [447 frames] -59.4928 [Ac=-26593.3 LM=0.0] (Act=10.6)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-05.wav
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END BUT WHAT THEY WANT WITH YOUR TOOTHBRUSH IS MORE THAN I CAN IMAGINE SENT-END  ==  [447 frames] -58.8402 [Ac=-26301.6 LM=0.0] (Act=12.9)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-06.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END GIVE THEM THEIR CHOICE BETWEEN A FINE OR AN OFFICIAL WHIPPING SENT-END  ==  [464 frames] -59.7756 [Ac=-27735.9 LM=0.0] (Act=10.5)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-07.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END KEEP AN EYE ON HIM SENT-END  ==  [296 frames] -52.9864 [Ac=-15684.0 LM=0.0] (Act=9.2)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-08.wav
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END THOSE ARE MY OYSTERS HE SAID AT LAST SENT-END  ==  [492 frames] -56.1247 [Ac=-27613.3 LM=0.0] (Act=9.5)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-09.wav
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END THEY ARE NOT REGULAR OYSTER PIRATES NICHOLAS CONTINUED SENT-END  ==  [462 frames] -58.1548 [Ac=-26867.5 LM=0.0] (Act=12.3)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-10.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END ONE BY ONE THE BOYS WERE CAPTURED SENT-END  ==  [341 frames] -57.4487 [Ac=-19590.0 LM=0.0] (Act=9.4)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-11.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END THE WEEKS HAD GONE BY AND NO OVERT ACTS HAD BEEN ATTEMPTED SENT-END  ==  [486 frames] -59.1965 [Ac=-28769.5 LM=0.0] (Act=12.0)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-12.wav
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END HERE IN THE MIDMORNING THE FIRST CASUALTY OCCURRED SENT-END  ==  [432 frames] -57.8620 [Ac=-24996.4 LM=0.0] (Act=11.5)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-13.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END THEY WERE DEEP IN THE PRIMEVAL FOREST SENT-END  ==  [341 frames] -60.9709 [Ac=-20791.1 LM=0.0] (Act=12.5)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-14.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END HE HAD BEEN FOILED IN HIS ATTEMPT TO ESCAPE SENT-END  ==  [353 frames] -59.5317 [Ac=-21014.7 LM=0.0] (Act=14.7)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-15.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END AND TWENTY MEN COULD HOLD IT WITH SPEARS AND ARROWS SENT-END  ==  [394 frames] -59.2446 [Ac=-23342.4 LM=0.0] (Act=11.5)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-16.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END BASSETT WAS A FASTIDIOUS MAN SENT-END  ==  [324 frames] -56.5686 [Ac=-18328.2 LM=0.0] (Act=10.1)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-17.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END THERE'S A BIG ENGLISH GENERAL RIGHT NOW WHOSE NAME IS ROBERTS SENT-END  ==  [458 frames] -62.0455 [Ac=-28416.8 LM=0.0] (Act=13.7)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-18.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END THIS TACIT PROMISE OF CONTINUED ACQUAINTANCE GAVE SAXON A LITTLE JOY-THRILL SENT-END  ==  [590 frames] -60.5391 [Ac=-35718.1 LM=0.0] (Act=12.7)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-19.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END I TELL YOU I AM DISGUSTED WITH THIS ADVENTURE TOMFOOLERY AND ROT SENT-END  ==  [526 frames] -58.6445 [Ac=-30847.0 LM=0.0] (Act=11.8)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-20.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END FROM MY EARLIEST RECOLLECTION MY SLEEP WAS A PERIOD OF TERROR SENT-END  ==  [492 frames] -59.2019 [Ac=-29127.3 LM=0.0] (Act=12.9)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-21.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END BUT ALL MY DREAMS VIOLATED THIS LAW SENT-END  ==  [383 frames] -56.8651 [Ac=-21779.3 LM=0.0] (Act=9.1)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-22.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END IT IS VERY PLAUSIBLE TO SUCH PEOPLE A MOST CONVINCING HYPOTHESIS SENT-END  ==  [575 frames] -59.7716 [Ac=-34368.7 LM=0.0] (Act=11.5)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-23.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END BUT THEY MAKE THE MISTAKE OF IGNORING THEIR OWN DUALITY SENT-END  ==  [441 frames] -57.8053 [Ac=-25492.1 LM=0.0] (Act=10.8)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-24.wav
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END I GRADUATED LAST OF MY CLASS SENT-END  ==  [362 frames] -61.7505 [Ac=-22353.7 LM=0.0] (Act=13.4)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-25.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END THEY HAD NO FIXED VALUES TO BE ALTERED BY ADJECTIVES AND ADVERBS SENT-END  ==  [531 frames] -61.2775 [Ac=-32538.4 LM=0.0] (Act=13.4)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-26.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END HE WAS PRESSING BEYOND THE LIMITS OF HIS VOCABULARY SENT-END  ==  [428 frames] -59.1577 [Ac=-25319.5 LM=0.0] (Act=13.9)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-27.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END VERY EARLY IN MY LIFE I SEPARATED FROM MY MOTHER SENT-END  ==  [454 frames] -60.1229 [Ac=-27295.8 LM=0.0] (Act=11.8)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-28.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END HIS INFERNAL CHATTERING WORRIES ME EVEN NOW AS I THINK OF IT SENT-END  ==  [471 frames] -62.1778 [Ac=-29285.8 LM=0.0] (Act=12.7)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-29.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END WHITE LEGHORNS SAID MRS MORTIMER SENT-END  ==  [358 frames] -62.0362 [Ac=-22208.9 LM=0.0] (Act=12.3)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-30.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END MASSAGE UNDER TENSION WAS THE CRYPTIC REPLY SENT-END  ==  [388 frames] -59.7822 [Ac=-23195.5 LM=0.0] (Act=10.9)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-31.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END THEREFORE HURRAH FOR THE GAME SENT-END  ==  [334 frames] -60.3215 [Ac=-20147.4 LM=0.0] (Act=10.8)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-32.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END IT LIVED IN PERPETUAL APPREHENSION OF THAT QUARTER OF THE COMPASS SENT-END  ==  [475 frames] -63.6283 [Ac=-30223.4 LM=0.0] (Act=15.4)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-33.wav
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END BROKEN-TOOTH YELLED WITH FRIGHT AND PAIN SENT-END  ==  [405 frames] -60.7552 [Ac=-24605.8 LM=0.0] (Act=10.9)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-34.wav
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END THUS WAS MOMENTUM GAINED IN THE YOUNGER WORLD SENT-END  ==  [400 frames] -61.5910 [Ac=-24636.4 LM=0.0] (Act=12.0)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-35.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END SAXON WAITED FOR SHE KNEW A FRESH IDEA HAD STRUCK BILLY SENT-END  ==  [430 frames] -60.9066 [Ac=-26189.8 LM=0.0] (Act=12.5)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-36.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END WE HAD BEEN CHASED BY THEM OURSELVES MORE THAN ONCE SENT-END  ==  [424 frames] -59.4228 [Ac=-25195.2 LM=0.0] (Act=11.0)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-37.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END HE WAS A WISE HYENA SENT-END  ==  [270 frames] -57.3845 [Ac=-15493.8 LM=0.0] (Act=10.4)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-38.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END PRODUCTION IS DOUBLING AND QUADRUPLING UPON ITSELF SENT-END  ==  [379 frames] -60.7007 [Ac=-23005.6 LM=0.0] (Act=14.9)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-39.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END AND THE EDINBURGH EVENING NEWS SAYS WITH EDITORIAL GLOOM SENT-END  ==  [507 frames] -58.6647 [Ac=-29743.0 LM=0.0] (Act=12.1)
+Aligning File: /tmp/CAR0LUmOYF/bjb-20120304/vf8-40.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END WITH MY STRENGTH I SLAMMED IT FULL INTO RED-EYE'S FACE SENT-END  ==  [456 frames] -58.4993 [Ac=-26675.7 LM=0.0] (Act=10.4)
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_D_N_Z_0
+                  SOURCEFORMAT                 WAV
+

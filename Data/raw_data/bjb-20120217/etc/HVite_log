@@ -1,0 +1,162 @@
+/usr/local/bin/HVite -A -D -T 1 -l * -a -b SENT-END -m -C /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/wav_config -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/macros -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/hmmdefs -m -t 250.0 150.0 1000.0 -I /tmp/cWQoQud3Ak/words.mlf -i /tmp/cWQoQud3Ak/aligned.out -S /tmp/cWQoQud3Ak/fileList /data/svn-mirror/SpeechCorpus/Trunk/Lexicon/VoxForge/VoxForgeDict /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/tiedlist 
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_D_N_Z_0
+#                 SOURCEFORMAT                 WAV
+
+Read 8073 physical / 9417 logical HMMs
+Label file will be used to align each file
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-01.wav
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END NO SOONER SAID THAN DONE THE TWO MICE SET OFF FOR THE TOWN SENT-END  ==  [509 frames] -58.4848 [Ac=-29768.8 LM=0.0] (Act=10.5)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-02.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END AND ARRIVED AT THE TOWN MOUSE'S RESIDENCE LATE AT NIGHT SENT-END  ==  [424 frames] -61.3575 [Ac=-26015.6 LM=0.0] (Act=11.7)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-03.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END YOU WILL WANT SOME REFRESHMENT AFTER OUR LONG JOURNEY SENT-END  ==  [381 frames] -61.3418 [Ac=-23371.2 LM=0.0] (Act=10.4)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-04.wav
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END SAID THE POLITE TOWN MOUSE AND TOOK HIS FRIEND INTO THE GRAND DINING-ROOM SENT-END  ==  [518 frames] -62.1869 [Ac=-32212.8 LM=0.0] (Act=13.0)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-05.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END THERE THEY FOUND THE REMAINS OF A FINE FEAST SENT-END  ==  [413 frames] -57.7460 [Ac=-23849.1 LM=0.0] (Act=10.0)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-06.wav
+Created lattice with 18 nodes / 17 arcs from label file
+SENT-END AND SOON THE TWO MICE WERE EATING UP JELLIES AND CAKES AND ALL THAT WAS NICE SENT-END  ==  [612 frames] -60.0280 [Ac=-36737.1 LM=0.0] (Act=10.9)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-07.wav
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END SUDDENLY THEY HEARD GROWLING AND BARKING SENT-END  ==  [407 frames] -59.6645 [Ac=-24283.5 LM=0.0] (Act=9.8)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-08.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END WHAT IS THAT SAID THE COUNTRY MOUSE SENT-END  ==  [383 frames] -55.8921 [Ac=-21406.7 LM=0.0] (Act=11.1)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-09.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END IT IS ONLY THE DOGS OF THE HOUSE ANSWERED THE OTHER SENT-END  ==  [454 frames] -59.4509 [Ac=-26990.7 LM=0.0] (Act=12.0)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-10.wav
+Created lattice with 16 nodes / 15 arcs from label file
+SENT-END ONLY SAID THE COUNTRY MOUSE I DO NOT LIKE THAT MUSIC AT MY DINNER SENT-END  ==  [545 frames] -60.8650 [Ac=-33171.4 LM=0.0] (Act=13.8)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-11.wav
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END JUST AT THAT MOMENT THE DOOR FLEW OPEN IN CAME TWO HUGE MASTIFFS SENT-END  ==  [558 frames] -61.4098 [Ac=-34266.7 LM=0.0] (Act=12.7)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-12.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END AND THE TWO MICE HAD TO SCAMPER DOWN AND RUN OFF SENT-END  ==  [417 frames] -59.7545 [Ac=-24917.6 LM=0.0] (Act=12.8)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-13.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END GOOD-BYE COUSIN SAID THE COUNTRY MOUSE WHAT GOING SO SOON SENT-END  ==  [516 frames] -60.7032 [Ac=-31322.8 LM=0.0] (Act=11.7)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-14.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END SAID THE OTHER YES HE REPLIED BETTER BEANS AND BACON IN PEACE SENT-END  ==  [556 frames] -61.8393 [Ac=-34382.7 LM=0.0] (Act=14.1)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-15.wav
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END THAN CAKES AND ALE IN FEAR SENT-END  ==  [324 frames] -57.1912 [Ac=-18529.9 LM=0.0] (Act=9.4)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-16.wav
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END A FOX ONCE SAW A CROW FLY OFF WITH A PIECE OF CHEESE SENT-END  ==  [507 frames] -58.8001 [Ac=-29811.7 LM=0.0] (Act=10.2)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-17.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END IN ITS BEAK AND SETTLE ON A BRANCH OF A TREE SENT-END  ==  [437 frames] -59.3037 [Ac=-25915.7 LM=0.0] (Act=9.3)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-18.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END THAT'S FOR ME AS I AM A FOX SAID MASTER REYNARD SENT-END  ==  [467 frames] -60.1820 [Ac=-28105.0 LM=0.0] (Act=9.1)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-19.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END AND HE WALKED UP TO THE FOOT OF THE TREE SENT-END  ==  [394 frames] -57.1170 [Ac=-22504.1 LM=0.0] (Act=11.9)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-20.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END GOOD-DAY MISTRESS CROW HE CRIED SENT-END  ==  [368 frames] -57.9754 [Ac=-21334.9 LM=0.0] (Act=7.9)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-21.wav
+Created lattice with 16 nodes / 15 arcs from label file
+SENT-END HOW WELL YOU ARE LOOKING TODAY HOW GLOSSY YOUR FEATHERS HOW BRIGHT YOUR EYE SENT-END  ==  [499 frames] -64.0265 [Ac=-31949.2 LM=0.0] (Act=10.6)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-22.wav
+Created lattice with 18 nodes / 17 arcs from label file
+SENT-END I FEEL SURE YOUR VOICE MUST SURPASS THAT OF OTHER BIRDS JUST AS YOUR FIGURE DOES SENT-END  ==  [644 frames] -61.0805 [Ac=-39335.8 LM=0.0] (Act=10.6)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-23.wav
+Created lattice with 20 nodes / 19 arcs from label file
+SENT-END LET ME HEAR BUT ONE SONG FROM YOU THAT I MAY GREET YOU AS THE QUEEN OF BIRDS SENT-END  ==  [590 frames] -61.6675 [Ac=-36383.9 LM=0.0] (Act=10.4)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-24.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END THE CROW LIFTED UP HER HEAD AND BEGAN TO CAW HER BEST SENT-END  ==  [490 frames] -58.7359 [Ac=-28780.6 LM=0.0] (Act=11.2)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-25.wav
+Created lattice with 17 nodes / 16 arcs from label file
+SENT-END BUT THE MOMENT SHE OPENED HER MOUTH THE PIECE OF CHEESE FELL TO THE GROUND SENT-END  ==  [563 frames] -60.0131 [Ac=-33787.4 LM=0.0] (Act=10.5)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-26.wav
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END ONLY TO BE SNAPPED UP BY MASTER FOX SENT-END  ==  [400 frames] -58.7740 [Ac=-23509.6 LM=0.0] (Act=9.5)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-27.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END THAT WILL DO SAID HE THAT WAS ALL I WANTED SENT-END  ==  [494 frames] -57.5659 [Ac=-28437.6 LM=0.0] (Act=9.8)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-28.wav
+Created lattice with 18 nodes / 17 arcs from label file
+SENT-END IN EXCHANGE FOR YOUR CHEESE I WILL GIVE YOU A PIECE OF ADVICE FOR THE FUTURE SENT-END  ==  [575 frames] -61.0890 [Ac=-35126.2 LM=0.0] (Act=11.3)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-29.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END DO NOT TRUST FLATTERERS SENT-END  ==  [398 frames] -55.3708 [Ac=-22037.6 LM=0.0] (Act=8.1)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-30.wav
+Created lattice with 17 nodes / 16 arcs from label file
+SENT-END A LION HAD COME TO THE END OF HIS DAYS AND LAY SICK UNTO DEATH SENT-END  ==  [535 frames] -59.1083 [Ac=-31622.9 LM=0.0] (Act=12.6)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-31.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END AT THE MOUTH OF HIS CAVE GASPING FOR BREATH SENT-END  ==  [420 frames] -60.0585 [Ac=-25224.6 LM=0.0] (Act=11.0)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-32.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END THE ANIMALS HIS SUBJECTS CAME ROUND HIM AND DREW NEARER SENT-END  ==  [552 frames] -59.1123 [Ac=-32630.0 LM=0.0] (Act=11.6)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-33.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END AS HE GREW MORE AND MORE HELPLESS SENT-END  ==  [358 frames] -58.3727 [Ac=-20897.4 LM=0.0] (Act=10.0)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-34.wav
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END WHEN THEY SAW HIM ON THE POINT OF DEATH THEY THOUGHT TO THEMSELVES SENT-END  ==  [533 frames] -57.3885 [Ac=-30588.1 LM=0.0] (Act=10.9)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-35.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END NOW IS THE TIME TO PAY OFF OLD GRUDGES SENT-END  ==  [411 frames] -58.1366 [Ac=-23894.2 LM=0.0] (Act=9.1)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-36.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END SO THE BOAR CAME UP AND DROVE AT HIM WITH HIS TUSKS SENT-END  ==  [392 frames] -61.9995 [Ac=-24303.8 LM=0.0] (Act=13.2)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-37.wav
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END THEN A BULL GORED HIM WITH HIS HORNS SENT-END  ==  [381 frames] -57.9322 [Ac=-22072.2 LM=0.0] (Act=11.5)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-38.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END STILL THE LION LAY HELPLESS BEFORE THEM SENT-END  ==  [415 frames] -59.7009 [Ac=-24775.9 LM=0.0] (Act=11.4)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-39.wav
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END SO THE ASS FEELING QUITE SAFE FROM DANGER SENT-END  ==  [454 frames] -58.4503 [Ac=-26536.4 LM=0.0] (Act=9.4)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-40.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END CAME UP AND TURNING HIS TAIL TO THE LION SENT-END  ==  [426 frames] -57.8321 [Ac=-24636.5 LM=0.0] (Act=10.5)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-41.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END KICKED UP HIS HEELS INTO HIS FACE SENT-END  ==  [358 frames] -59.6190 [Ac=-21343.6 LM=0.0] (Act=11.4)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-42.wav
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END THIS IS A DOUBLE DEATH GROWLED THE LION SENT-END  ==  [411 frames] -59.2586 [Ac=-24355.3 LM=0.0] (Act=11.3)
+Aligning File: /tmp/cWQoQud3Ak/bjb-20120217/vf31-43.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END ONLY COWARDS INSULT DYING MAJESTY SENT-END  ==  [413 frames] -58.2156 [Ac=-24043.0 LM=0.0] (Act=8.2)
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_D_N_Z_0
+                  SOURCEFORMAT                 WAV
+

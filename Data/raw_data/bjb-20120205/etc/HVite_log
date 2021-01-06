@@ -1,0 +1,153 @@
+/usr/local/bin/HVite -A -D -T 1 -l * -a -b SENT-END -m -C /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/wav_config -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/macros -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/hmmdefs -m -t 250.0 150.0 1000.0 -I /tmp/ftBMLPoDak/words.mlf -i /tmp/ftBMLPoDak/aligned.out -S /tmp/ftBMLPoDak/fileList /data/svn-mirror/SpeechCorpus/Trunk/Lexicon/VoxForge/VoxForgeDict /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/tiedlist 
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_D_N_Z_0
+#                 SOURCEFORMAT                 WAV
+
+Read 8073 physical / 9417 logical HMMs
+Label file will be used to align each file
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-01.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END BY VIRTUE OF THAT POWER WE SHALL REMAIN IN POWER SENT-END  ==  [449 frames] -59.6561 [Ac=-26785.6 LM=0.0] (Act=8.6)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-02.wav
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END ONE GUESS WILL DO ERNEST RETORTED SENT-END  ==  [358 frames] -59.9068 [Ac=-21446.6 LM=0.0] (Act=10.8)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-03.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END TAKE MY ADVICE AND ACCEPT THE VACATION SENT-END  ==  [379 frames] -57.6563 [Ac=-21851.7 LM=0.0] (Act=11.4)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-04.wav
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END I COULD NOT AGREE WITH ERNEST SENT-END  ==  [385 frames] -54.7607 [Ac=-21082.9 LM=0.0] (Act=7.9)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-05.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END BUT SUCH DIVERGENCE OF OPINION WOULD CONSTITUTE NO MENACE TO SOCIETY SENT-END  ==  [537 frames] -60.3719 [Ac=-32419.7 LM=0.0] (Act=11.4)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-06.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END IT IS DOG EAT DOG AND YOU ATE THEM UP SENT-END  ==  [405 frames] -59.2459 [Ac=-23994.6 LM=0.0] (Act=10.7)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-07.wav
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END LET US RUN THEM FOR OURSELVES SENT-END  ==  [307 frames] -61.6229 [Ac=-18918.2 LM=0.0] (Act=11.5)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-08.wav
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END IT WAS INTRODUCED BY REPRESENTATIVE DICK OF OHIO SENT-END  ==  [398 frames] -61.9958 [Ac=-24674.3 LM=0.0] (Act=13.7)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-09.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END VERY FEW PEOPLE KNEW OF THE EXISTENCE OF THIS LAW SENT-END  ==  [479 frames] -57.9279 [Ac=-27747.4 LM=0.0] (Act=10.5)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-10.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END THE VERY THING ERNEST AGREED SENT-END  ==  [328 frames] -56.6419 [Ac=-18578.5 LM=0.0] (Act=9.0)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-11.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END ALSO A FELLOW SENATOR CHAUNCEY DEPEW SAID SENT-END  ==  [449 frames] -59.9436 [Ac=-26914.7 LM=0.0] (Act=9.1)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-12.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END ERNEST SAW IN THE AFFAIR THE MOST SINISTER IMPORT SENT-END  ==  [471 frames] -58.8407 [Ac=-27714.0 LM=0.0] (Act=10.5)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-13.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END THEN THERE WAS THE CAMPAIGN SENT-END  ==  [396 frames] -53.0368 [Ac=-21002.6 LM=0.0] (Act=8.4)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-14.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END HE WAS MANIFESTLY DISTRESSED BY MY COMING SENT-END  ==  [415 frames] -57.5193 [Ac=-23870.5 LM=0.0] (Act=9.1)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-15.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END NOT A WHEEL MOVED IN HIS EMPIRE SENT-END  ==  [341 frames] -58.4291 [Ac=-19924.3 LM=0.0] (Act=10.4)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-16.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END THE REORGANIZATION OF THESE COUNTRIES TOOK THE FORM OF REVOLUTION SENT-END  ==  [481 frames] -60.7299 [Ac=-29211.1 LM=0.0] (Act=11.6)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-17.wav
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END YOU'RE GOING IN FOR GRAB SHARING SENT-END  ==  [396 frames] -54.4550 [Ac=-21564.2 LM=0.0] (Act=7.1)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-18.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END THE OLIGARCHY WILL ENCOURAGE SUCH AMBITION AND THE CONSEQUENT COMPETITION SENT-END  ==  [586 frames] -60.7145 [Ac=-35578.7 LM=0.0] (Act=10.5)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-19.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END VIOLATION OF THIS LAW WAS MADE A HIGH MISDEMEANOR AND PUNISHED ACCORDINGLY SENT-END  ==  [550 frames] -61.2764 [Ac=-33702.0 LM=0.0] (Act=10.4)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-20.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END WITHOUT DISCUSSION IT WAS THE AGENTS PROVOCATEURS WHO CAUSED THE PEASANT REVOLT SENT-END  ==  [582 frames] -60.7468 [Ac=-35354.6 LM=0.0] (Act=13.4)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-21.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END THE TASK WE SET OURSELVES WAS THREEFOLD SENT-END  ==  [435 frames] -57.7976 [Ac=-25142.0 LM=0.0] (Act=8.4)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-22.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END MANY OTHER SIMILAR DISCONCERTING OMISSIONS WILL BE NOTICED IN THE MANUSCRIPT SENT-END  ==  [545 frames] -61.2782 [Ac=-33396.6 LM=0.0] (Act=11.2)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-23.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END THE FLOWER OF THE ARTISTIC AND INTELLECTUAL WORLD WERE REVOLUTIONISTS SENT-END  ==  [539 frames] -60.3806 [Ac=-32545.1 LM=0.0] (Act=13.1)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-24.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END THIS THE IRON HEEL FORESAW AND LAID ITS SCHEMES ACCORDINGLY SENT-END  ==  [473 frames] -62.6115 [Ac=-29615.2 LM=0.0] (Act=11.7)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-25.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END THE MOB CAME ON BUT IT COULD NOT ADVANCE SENT-END  ==  [398 frames] -58.3235 [Ac=-23212.8 LM=0.0] (Act=11.3)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-26.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END BUT WHY CONTINUE THE TIRADE FOR TIRADE IT WAS SENT-END  ==  [452 frames] -59.3864 [Ac=-26842.7 LM=0.0] (Act=9.0)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-27.wav
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END AFTER ALL SUPERFLUOUS FLESH IS GONE WHAT IS LEFT IS STRINGY AND RESISTANT SENT-END  ==  [614 frames] -60.2543 [Ac=-36996.1 LM=0.0] (Act=10.5)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-28.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END BEYOND REFUSING TO SELL US FOOD THEY LEFT US TO OURSELVES SENT-END  ==  [531 frames] -59.6875 [Ac=-31694.1 LM=0.0] (Act=10.3)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-29.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END HE WAS A MERRY MONARCH ESPECIALLY SO FOR AN ASIATIC SENT-END  ==  [520 frames] -58.3377 [Ac=-30335.6 LM=0.0] (Act=9.8)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-30.wav
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END WHAT AN EXCITED WHISPERING AND CONFERRING TOOK PLACE SENT-END  ==  [481 frames] -58.0097 [Ac=-27902.7 LM=0.0] (Act=9.4)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-31.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END JACOB BRINKER WHO WAS HIS ROADMATE BROUGHT THE NEWS SENT-END  ==  [481 frames] -58.0913 [Ac=-27941.9 LM=0.0] (Act=9.5)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-32.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END THUS HE TURNED THE TENETS AND JARGON OF PSYCHOLOGY BACK ON ME SENT-END  ==  [496 frames] -59.8025 [Ac=-29662.0 LM=0.0] (Act=11.2)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-33.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END YOU YELLOW GIANT THING OF THE FROST SENT-END  ==  [388 frames] -57.5591 [Ac=-22332.9 LM=0.0] (Act=8.3)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-34.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END NEVER SO STRANGE A PROPHET CAME UP TO JERUSALEM SENT-END  ==  [693 frames] -53.8264 [Ac=-37301.7 LM=0.0] (Act=7.0)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-35.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END WE WHO HAVE ENDURED SO MUCH SURELY CAN ENDURE A LITTLE MORE SENT-END  ==  [475 frames] -59.2993 [Ac=-28167.2 LM=0.0] (Act=10.4)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-36.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END I HAVE SEEN MYSELF THAT ONE MAN CONTEMPLATED BY PASCAL'S PHILOSOPHIC EYE SENT-END  ==  [582 frames] -61.6402 [Ac=-35874.6 LM=0.0] (Act=10.5)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-37.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END ONE GREAT DRAWBACK TO FARMING IN CALIFORNIA IS OUR LONG DRY SUMMER SENT-END  ==  [575 frames] -59.1547 [Ac=-34014.0 LM=0.0] (Act=9.4)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-38.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END I REMEMBERED THE RED WINE OF THE ITALIAN RANCHO AND SHUDDERED INWARDLY SENT-END  ==  [678 frames] -58.2661 [Ac=-39504.4 LM=0.0] (Act=9.3)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-39.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END I SAID AND DISMISSED THE MATTER AS NOT WORTH THINKING ABOUT SENT-END  ==  [477 frames] -59.7936 [Ac=-28521.5 LM=0.0] (Act=11.5)
+Aligning File: /tmp/ftBMLPoDak/bjb-20120205/vf27-40.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END THEN CAME MY BOY CODE SENT-END  ==  [392 frames] -54.8985 [Ac=-21520.2 LM=0.0] (Act=8.1)
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_D_N_Z_0
+                  SOURCEFORMAT                 WAV
+

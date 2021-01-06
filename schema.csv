@@ -1,0 +1,14 @@
+Columns,Acoustic properties
+nobs,Number of observations
+mean,average of frequency measured across acoustic signal
+skewness,skewness
+kurtosis,kurtosis
+median,median frequency(in Hz)
+mode,mode frequency
+std,standard deviation of frequency
+low,frequency with lowest energy
+peak,frequency with highest energy
+q25,first quantile(in Hz)
+q75,third quantile(in Hz)
+iqr,interquantile range(in Hz)
+lable,Male or Female

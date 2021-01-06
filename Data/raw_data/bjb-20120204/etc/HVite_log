@@ -1,0 +1,153 @@
+/usr/local/bin/HVite -A -D -T 1 -l * -a -b SENT-END -m -C /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/wav_config -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/macros -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/hmmdefs -m -t 250.0 150.0 1000.0 -I /tmp/FELG9kCajB/words.mlf -i /tmp/FELG9kCajB/aligned.out -S /tmp/FELG9kCajB/fileList /data/svn-mirror/SpeechCorpus/Trunk/Lexicon/VoxForge/VoxForgeDict /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/tiedlist 
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_D_N_Z_0
+#                 SOURCEFORMAT                 WAV
+
+Read 8073 physical / 9417 logical HMMs
+Label file will be used to align each file
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-01.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END SHE IS ESSENTIALLY THE LIFE-GIVING LIFE-CONSERVING FEMALE OF THE SPECIES SENT-END  ==  [580 frames] -60.2929 [Ac=-34969.9 LM=0.0] (Act=9.6)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-02.wav
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END THIS WAS WHEN THE EXPLOSION OCCURRED SENT-END  ==  [383 frames] -55.9715 [Ac=-21437.1 LM=0.0] (Act=8.9)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-03.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END ALSO AT REGULAR INTERVALS HE WOULD MUTTER SENT-END  ==  [460 frames] -58.0300 [Ac=-26693.8 LM=0.0] (Act=10.5)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-04.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END IT IS A VERY TENABLE HYPOTHESIS AND WILL BEAR LOOKING INTO SENT-END  ==  [535 frames] -58.8686 [Ac=-31494.7 LM=0.0] (Act=10.7)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-05.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END THERE WERE ORANGE-GREEN GOLD-GREEN AND A COPPER-GREEN SENT-END  ==  [486 frames] -59.3727 [Ac=-28855.1 LM=0.0] (Act=9.0)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-06.wav
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END THE GABRIEL VOICE OF THE SAMURAI RANG OUT SENT-END  ==  [499 frames] -56.7053 [Ac=-28296.0 LM=0.0] (Act=8.9)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-07.wav
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END THE SUNSETS GROW MORE BIZARRE AND SPECTACULAR OFF THIS COAST OF THE ARGENTINE SENT-END  ==  [635 frames] -60.0528 [Ac=-38133.5 LM=0.0] (Act=10.8)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-08.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END THE HISTORY OF OUR WESTWARD-FARING RACE IS WRITTEN IN IT SENT-END  ==  [481 frames] -58.3730 [Ac=-28077.4 LM=0.0] (Act=10.3)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-09.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END AND THE EURASIAN CHINESE-ENGLISHMAN BOWED HIMSELF AWAY SENT-END  ==  [477 frames] -60.2380 [Ac=-28733.5 LM=0.0] (Act=9.1)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-10.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END THEY WERE BABBLING AND CHATTERING ALL TOGETHER SENT-END  ==  [413 frames] -56.3973 [Ac=-23292.1 LM=0.0] (Act=9.1)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-11.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END TOO MUCH HE TOLD ME WITH OMINOUS ROLLING HEAD SENT-END  ==  [516 frames] -57.6775 [Ac=-29761.6 LM=0.0] (Act=8.0)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-12.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END HE IS A CANDIDATE RISING FROM THE SERF CLASS TO OUR CLASS SENT-END  ==  [492 frames] -59.5717 [Ac=-29309.3 LM=0.0] (Act=12.1)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-13.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END WE ARE COOKING ON THE COAL STOVE AND ON THE OIL BURNERS SENT-END  ==  [398 frames] -60.7643 [Ac=-24184.2 LM=0.0] (Act=11.5)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-14.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END THE STEWARD HAS JUST TENDERED ME A RESPECTFUL BIT OF ADVICE SENT-END  ==  [464 frames] -58.8468 [Ac=-27304.9 LM=0.0] (Act=12.4)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-15.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END WELL DID THEY EAT SENT-END  ==  [281 frames] -55.4258 [Ac=-15574.7 LM=0.0] (Act=6.9)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-16.wav
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END FAMINE HAD BEEN MY GREAT ALLY SENT-END  ==  [403 frames] -55.4989 [Ac=-22366.0 LM=0.0] (Act=8.7)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-17.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END NOWHERE IN THE NORTH IS THE SOIL SO PROLIFIC SENT-END  ==  [458 frames] -58.6082 [Ac=-26842.5 LM=0.0] (Act=9.1)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-18.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END THEY RAN THE CANOE IN AND CLIMBED THE HIGH EARTH BANK SENT-END  ==  [499 frames] -57.4120 [Ac=-28648.6 LM=0.0] (Act=10.8)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-19.wav
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END THE LAND EXCHANGED ITS AUSTERE ROBES FOR THE GARB OF A SMILING WANTON SENT-END  ==  [575 frames] -60.5476 [Ac=-34814.8 LM=0.0] (Act=11.6)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-20.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END THERE WERE STIR AND BUSTLE NEW FACES AND FRESH FACTS SENT-END  ==  [490 frames] -58.2518 [Ac=-28543.4 LM=0.0] (Act=9.6)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-21.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END AND THERE WAS ETHEL BAIRD WHOM ALSO YOU MUST REMEMBER SENT-END  ==  [464 frames] -61.8941 [Ac=-28718.8 LM=0.0] (Act=11.7)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-22.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END HE HAD BECOME A MAN VERY EARLY IN LIFE SENT-END  ==  [417 frames] -57.7175 [Ac=-24068.2 LM=0.0] (Act=11.0)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-23.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END I DID NOT THINK YOU WOULD BE SO EARLY SENT-END  ==  [409 frames] -55.9978 [Ac=-22903.1 LM=0.0] (Act=8.8)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-24.wav
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END HE DID NOT KNOW WHAT WENT ON IN THE MINDS OF HIS SUPERIORS SENT-END  ==  [492 frames] -59.0821 [Ac=-29068.4 LM=0.0] (Act=11.6)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-25.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END MOPS SIR EAGERLY ANSWERED THE SAILOR AT THE WHEEL SENT-END  ==  [545 frames] -56.7546 [Ac=-30931.2 LM=0.0] (Act=8.9)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-26.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END SOME ONE HAD THRUST A LARGE SHEATH-KNIFE INTO HIS HAND SENT-END  ==  [535 frames] -57.6518 [Ac=-30843.7 LM=0.0] (Act=8.9)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-27.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END O'BRIEN EMITTED A SHRIEK THAT SANK SWIFTLY TO A GURGLING SOB SENT-END  ==  [614 frames] -61.2585 [Ac=-37612.7 LM=0.0] (Act=10.3)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-28.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END SANDEL WOULD NEVER BECOME A WORLD CHAMPION SENT-END  ==  [405 frames] -60.3214 [Ac=-24430.2 LM=0.0] (Act=9.2)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-29.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END ALSO SHE WOULDN'T WALK SENT-END  ==  [381 frames] -56.2387 [Ac=-21426.9 LM=0.0] (Act=7.6)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-30.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END TO MY DEAREST AND ALWAYS APPRECIATED FRIEND I SUBMIT MYSELF SENT-END  ==  [584 frames] -58.6945 [Ac=-34277.6 LM=0.0] (Act=10.6)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-31.wav
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END YOU USED TO JOYRIDE LIKE THE VERY DEVIL SENT-END  ==  [447 frames] -56.1277 [Ac=-25089.1 LM=0.0] (Act=9.1)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-32.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END THEY SAW EACH OTHER FOR THE FIRST TIME IN BOSTON SENT-END  ==  [424 frames] -58.4767 [Ac=-24794.1 LM=0.0] (Act=11.0)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-33.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END ISAAC FORD THE AUSTERE SOLDIER OF THE LORD THE OLD HYPOCRITE SENT-END  ==  [554 frames] -61.0384 [Ac=-33815.3 LM=0.0] (Act=11.0)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-34.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END EIGHTEEN HE ADDED SENT-END  ==  [343 frames] -56.2757 [Ac=-19302.6 LM=0.0] (Act=8.6)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-35.wav
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END HIS REWARD SHOULD HAVE BEEN PEACE AND REPOSE SENT-END  ==  [471 frames] -59.7410 [Ac=-28138.0 LM=0.0] (Act=8.5)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-36.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END HE WAS AN AMPHIBIAN AND A MOUNTAINEER SENT-END  ==  [398 frames] -59.9054 [Ac=-23842.3 LM=0.0] (Act=13.1)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-37.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END IT WAS SANCTIFICATION AND SALVATION SENT-END  ==  [447 frames] -59.7768 [Ac=-26720.2 LM=0.0] (Act=9.9)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-38.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END THE HISTORY OF THE EIGHTEENTH CENTURY IS WRITTEN ERNEST PROMPTED SENT-END  ==  [526 frames] -62.1165 [Ac=-32673.3 LM=0.0] (Act=15.7)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-39.wav
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END THEY ARE NOT BIOLOGISTS NOR SOCIOLOGISTS SENT-END  ==  [413 frames] -62.0710 [Ac=-25635.3 LM=0.0] (Act=14.5)
+Aligning File: /tmp/FELG9kCajB/bjb-20120204/vf26-40.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END THE MORE HIS OPPONENTS GREW EXCITED THE MORE ERNEST DELIBERATELY EXCITED THEM SENT-END  ==  [641 frames] -62.3727 [Ac=-39980.9 LM=0.0] (Act=12.4)
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_D_N_Z_0
+                  SOURCEFORMAT                 WAV
+
