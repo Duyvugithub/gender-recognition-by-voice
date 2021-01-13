@@ -85,8 +85,6 @@ for i in range(n_samples):
     if os.path.isdir(sample_wav_folder):
         frequencies = get_freq(sample_wav_folder)
         if len(frequencies) > 10: 
-            #for some of the files (ex: Aaron-20130527-giy) 
-            #I only recover frequencies of 0.0 (even if I don't split in chunks) which is not integrated into my lol and frequencies is empty
             nobs, mean, skewness, kurtosis, median, mode, std, low, peak, q25, q75, iqr = get_features(frequencies)
             sample_dict = {'nobs':nobs, 'mean':mean, 'skewness':skewness, 'kurtosis':kurtosis,
                            'median':median, 'mode':mode, 'std':std, 'low': low,
