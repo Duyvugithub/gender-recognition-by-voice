@@ -1,6 +1,6 @@
 * **STT: 19**
 
-* **Nguyễn Chiêu Bản  MSSV: 18120283**
+* **Nguyễn Chiêu Bản  MSSV: 18120283** [github](https://github.com/nguyenban)
 
 * **Nguyễn Duy Vũ     MSSV: 18120264**
 
