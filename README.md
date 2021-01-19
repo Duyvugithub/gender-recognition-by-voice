@@ -2,7 +2,7 @@
 
 * **Nguyễn Chiêu Bản  MSSV: 18120283** [github: nguyenban](https://github.com/nguyenban)
 
-* **Nguyễn Duy Vũ     MSSV: 18120264** https://github.com/Duyvugithub
+* **Nguyễn Duy Vũ     MSSV: 18120264** github.com/Duyvugithub
 
 # Gender recognition by voice
 
